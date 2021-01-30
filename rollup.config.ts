@@ -7,7 +7,9 @@ import json from 'rollup-plugin-json'
 
 const pkg = require('./package.json')
 
+
 const libraryName = 'proaxios'
+
 
 export default {
   input: `src/${libraryName}.ts`,
